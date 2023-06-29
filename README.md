@@ -1,2 +1,1 @@
-# Backend_nodejs
 # comicchat
