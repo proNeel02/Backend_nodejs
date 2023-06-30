@@ -27,7 +27,6 @@ app.use(bodyParser.json());
 app.use('/user', userRoutes);
 
 
-
 app.use('*', (req,res) => {
 res.status(404).send("Source Not Found!");
 });
